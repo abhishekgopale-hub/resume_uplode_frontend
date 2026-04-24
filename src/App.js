@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Select from "react-select";
 import "./App.css";
-const API = process.env.REACT_APP_API_BASE_URL;
+const API = "/api";
 console.log(API);
 function App() {
   const [file, setFile] = useState(null);
